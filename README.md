@@ -1,4 +1,4 @@
-# coverr
+# Coverr
 
 ![Alt text](https://github.com/user-attachments/assets/f3df9daf-eb91-4f59-80b6-906a78eb483f)
 
