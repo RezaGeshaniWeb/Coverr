@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../font/Gilroy-Regular.woff2);
+}
+
+body {
+    width: 100%;
+    font-family: Gilroy;
+    /* overflow-x: hidden; */
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+    &:visited {
+        color: inherit;
+    }
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.change-navbar {
+    background-color: #181819;
+    border-color: #313131 !important;
+    z-index: 800;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    background-color: #181819;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(214, 214, 214);
+}
